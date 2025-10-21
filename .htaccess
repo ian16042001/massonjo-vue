@@ -1,0 +1,36 @@
+# --- Canonical & HTTPS (optional but recommended)
+RewriteEngine On
+
+# Force HTTPS
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Force www
+RewriteCond %{HTTP_HOST} ^(www\.)?massonjo-hauffage-anitaire\.fr$ [NC]
+RewriteRule ^ https://www.massonjo-chauffage-sanitaire.fr%{REQUEST_URI}?%{QUERY_STRING} [R=301,L]
+
+
+# --- Vue SPA rewrites (history mode)
+# Don’t rewrite if the request is for an existing file or directory
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Don’t rewrite API or JSON storage requests
+RewriteCond %{REQUEST_URI} !^/api/
+RewriteCond %{REQUEST_URI} !^/data/
+
+# Everything else -> index.html (so /chauffage, /pompe-a-chaleur, etc. work on refresh)
+RewriteRule . /index.html [L]
+
+
+# --- Optional: static cache
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/css "access plus 7 days"
+  ExpiresByType application/javascript "access plus 7 days"
+  ExpiresByType image/svg+xml "access plus 30 days"
+  ExpiresByType image/png "access plus 30 days"
+  ExpiresByType image/jpeg "access plus 30 days"
+  ExpiresByType image/webp "access plus 30 days"
+</IfModule>
