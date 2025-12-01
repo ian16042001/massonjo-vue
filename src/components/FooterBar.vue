@@ -2,7 +2,7 @@
   <footer class="bg-gray-100 border-t mt-10">
     <div class="container py-10 grid md:grid-cols-3 gap-8">
       <div>
-        <img src="https://firebasestorage.googleapis.com/v0/b/massonjo-c0679.firebasestorage.app/o/Logo%2Flogo.png?alt=media&token=eaa675b9-9b39-4e29-b3b2-a9ae9fae87aa" alt="MCS" class="h-20 w-20 mb-3"/>
+        <img alt="MCS - Massonjo Chauffage Sanitaire, plombier chauffagiste à Reignier-Ésery et Haute-Savoie"  src="https://firebasestorage.googleapis.com/v0/b/massonjo-c0679.firebasestorage.app/o/Logo%2Flogo.png?alt=media&token=eaa675b9-9b39-4e29-b3b2-a9ae9fae87aa" class="h-20 w-20 mb-3"/>
         <h4 class="font-semibold mb-3">Massonjo Chauffage Sanitaire</h4>
         <p>Plombier chauffagiste à Reignier-Ésery et Haute-Savoie.</p>
       </div>

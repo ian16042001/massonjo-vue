@@ -7,4 +7,15 @@
   <url><loc>https://www.massonjo-chauffage-sanitaire.fr/galerie-photos</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.massonjo-chauffage-sanitaire.fr/mentions-legales</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>
   <url><loc>https://www.massonjo-chauffage-sanitaire.fr/avis-contact</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- NEW CITY LANDING PAGES -->
+  <url><loc>https://www.massonjo-chauffage-sanitaire.fr/pers-jussy</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.massonjo-chauffage-sanitaire.fr/thones</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.massonjo-chauffage-sanitaire.fr/la-roche-sur-foron</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.massonjo-chauffage-sanitaire.fr/bonneville</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.massonjo-chauffage-sanitaire.fr/annemasse</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.massonjo-chauffage-sanitaire.fr/gaillard</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.massonjo-chauffage-sanitaire.fr/saint-julien-en-genevois</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.massonjo-chauffage-sanitaire.fr/cranves-sales</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.massonjo-chauffage-sanitaire.fr/monnetier-mornex</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 </urlset>

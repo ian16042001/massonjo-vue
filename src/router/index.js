@@ -1,15 +1,165 @@
+// // src/router/index.js
+// import { createRouter, createWebHistory } from 'vue-router'
+
+// const Home = () => import('../pages/Home.vue')
+// const Plomberie = () => import('../pages/Plomberie.vue')
+// const Chauffage = () => import('../pages/Chauffage.vue')
+// const PompeChaleur = () => import('../pages/PompeChaleur.vue')
+// const Galerie = () => import('../pages/Galerie.vue')
+// const Mentions = () => import('../pages/MentionsLegales.vue')
+// const Contact = () => import('../pages/Contact.vue')
+
+// // Your canonical production URL (used for canonical + OG url)
+// const SITE_URL = 'https://www.massonjo-chauffage-sanitaire.fr'
+
+// const router = createRouter({
+//   history: createWebHistory(),
+//   scrollBehavior() { return { top: 0 } },
+//   routes: [
+//     {
+//       path: '/',
+//       name: 'home',
+//       component: Home,
+//       meta: {
+//         title: 'Accueil',
+//         description:
+//           "Plombier chauffagiste à Reignier-Ésery. Installations, rénovations et dépannages en Haute-Savoie."
+//       }
+//     },
+//     {
+//       path: '/plomberie-sanitaire',
+//       name: 'plomberie',
+//       component: Plomberie,
+//       meta: {
+//         title: 'Plomberie sanitaire',
+//         description:
+//           "Installation et rénovation de plomberie sanitaire à Reignier-Ésery, Annemasse et Haute-Savoie."
+//       }
+//     },
+//     {
+//       path: '/chauffage',
+//       name: 'chauffage',
+//       component: Chauffage,
+//       meta: {
+//         title: 'Chauffage',
+//         description:
+//           "Chaudières, radiateurs, plancher chauffant : installation et optimisation en Haute-Savoie."
+//       }
+//     },
+//     {
+//       path: '/pompe-a-chaleur',
+//       name: 'pompe',
+//       component: PompeChaleur,
+//       meta: {
+//         title: 'Pompe à chaleur',
+//         description:
+//           "Installation et maintenance de pompes à chaleur (PAC) à Reignier-Ésery et environs."
+//       }
+//     },
+//     {
+//       path: '/galerie-photos',
+//       name: 'galerie',
+//       component: Galerie,
+//       meta: {
+//         title: 'Galerie photos',
+//         description:
+//           "Réalisations en plomberie, chauffage et pompes à chaleur en Haute-Savoie."
+//       }
+//     },
+//     {
+//       path: '/mentions-legales',
+//       name: 'mentions',
+//       component: Mentions,
+//       meta: {
+//         title: 'Mentions légales',
+//         description: "Informations légales et politique de confidentialité (RGPD)."
+//       }
+//     },
+//     {
+//       path: '/avis-contact',
+//       name: 'contact',
+//       component: Contact,
+//       meta: {
+//         title: 'Avis & Contact',
+//         description:
+//           "Contactez MCS et découvrez les avis clients. Devis gratuits et réponse rapide."
+//       }
+//     },
+//     { path: '/:pathMatch(.*)*', redirect: '/' }
+//   ]
+// })
+
+// function upsertMeta(selector, attrs) {
+//   let el = document.querySelector(selector)
+//   if (!el) {
+//     el = document.createElement('meta')
+//     // set a sensible default attribute to ensure future selects work
+//     if (attrs.name) el.setAttribute('name', attrs.name)
+//     if (attrs.property) el.setAttribute('property', attrs.property)
+//     document.head.appendChild(el)
+//   }
+//   Object.entries(attrs).forEach(([k, v]) => el.setAttribute(k, v))
+//   return el
+// }
+
+// function upsertCanonical(href) {
+//   let link = document.querySelector("link[rel='canonical']")
+//   if (!link) {
+//     link = document.createElement('link')
+//     link.setAttribute('rel', 'canonical')
+//     document.head.appendChild(link)
+//   }
+//   link.setAttribute('href', href)
+// }
+
+// router.afterEach((to) => {
+//   const baseTitle = to.meta?.title ? `${to.meta.title} – MCS` : 'MCS'
+//   const desc = to.meta?.description || 'Plombier chauffagiste à Reignier-Ésery et Haute-Savoie.'
+
+//   // Title
+//   document.title = baseTitle
+
+//   // Meta description
+//   upsertMeta("meta[name='description']", { name: 'description', content: desc })
+
+//   // Canonical
+//   const url = SITE_URL + (to.fullPath || to.path || '/')
+//   upsertCanonical(url)
+
+//   // Open Graph
+//   upsertMeta("meta[property='og:title']", { property: 'og:title', content: baseTitle })
+//   upsertMeta("meta[property='og:description']", { property: 'og:description', content: desc })
+//   upsertMeta("meta[property='og:url']", { property: 'og:url', content: url })
+
+//   // Twitter
+//   upsertMeta("meta[name='twitter:title']", { name: 'twitter:title', content: baseTitle })
+//   upsertMeta("meta[name='twitter:description']", { name: 'twitter:description', content: desc })
+// })
+
+// export default router
+
+
 // src/router/index.js
 import { createRouter, createWebHistory } from 'vue-router'
 
-const Home = () => import('../pages/Home.vue')
-const Plomberie = () => import('../pages/Plomberie.vue')
-const Chauffage = () => import('../pages/Chauffage.vue')
-const PompeChaleur = () => import('../pages/PompeChaleur.vue')
-const Galerie = () => import('../pages/Galerie.vue')
-const Mentions = () => import('../pages/MentionsLegales.vue')
-const Contact = () => import('../pages/Contact.vue')
+const Home            = () => import('../pages/Home.vue')
+const Plomberie       = () => import('../pages/Plomberie.vue')
+const Chauffage       = () => import('../pages/Chauffage.vue')
+const PompeChaleur    = () => import('../pages/PompeChaleur.vue')
+const Galerie         = () => import('../pages/Galerie.vue')
+const Mentions        = () => import('../pages/MentionsLegales.vue')
+const Contact         = () => import('../pages/Contact.vue')
+// ---- new city pages ----
+const PersJussy       = () => import('../pages/cities/PersJussy.vue')
+const Thones          = () => import('../pages/cities/Thones.vue')
+const LaRocheSurForon = () => import('../pages/cities/LaRocheSurForon.vue')
+const Bonneville      = () => import('../pages/cities/Bonneville.vue')
+const Annemasse       = () => import('../pages/cities/Annemasse.vue')
+const Gaillard        = () => import('../pages/cities/Gaillard.vue')
+const SaintJulien     = () => import('../pages/cities/SaintJulien.vue')
+const CranvesSales    = () => import('../pages/cities/CranvesSales.vue')
+const MonnetierMornex = () => import('../pages/cities/MonnetierMornex.vue')
 
-// Your canonical production URL (used for canonical + OG url)
 const SITE_URL = 'https://www.massonjo-chauffage-sanitaire.fr'
 
 const router = createRouter({
@@ -20,80 +170,64 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: Home,
-      meta: {
-        title: 'Accueil',
-        description:
-          "Plombier chauffagiste à Reignier-Ésery. Installations, rénovations et dépannages en Haute-Savoie."
-      }
+      meta: { title: 'Plombier Reignier-Ésery', description: 'Plombier chauffagiste à Reignier-Ésery. Installations, rénovations et dépannages en Haute-Savoie. Devis gratuit 24 h.' }
     },
     {
       path: '/plomberie-sanitaire',
       name: 'plomberie',
       component: Plomberie,
-      meta: {
-        title: 'Plomberie sanitaire',
-        description:
-          "Installation et rénovation de plomberie sanitaire à Reignier-Ésery, Annemasse et Haute-Savoie."
-      }
+      meta: { title: 'Plomberie Fillinges & Reignier', description: 'Installation et rénovation plomberie sanitaire à Fillinges, Reignier-Ésery, Annemasse. Devis gratuit.' }
     },
     {
       path: '/chauffage',
       name: 'chauffage',
       component: Chauffage,
-      meta: {
-        title: 'Chauffage',
-        description:
-          "Chaudières, radiateurs, plancher chauffant : installation et optimisation en Haute-Savoie."
-      }
+      meta: { title: 'Chauffagiste Reignier-Ésery', description: 'Chaudières, radiateurs, planchers chauffants : installation et entretien en Haute-Savoie.' }
     },
     {
       path: '/pompe-a-chaleur',
       name: 'pompe',
       component: PompeChaleur,
-      meta: {
-        title: 'Pompe à chaleur',
-        description:
-          "Installation et maintenance de pompes à chaleur (PAC) à Reignier-Ésery et environs."
-      }
+      meta: { title: 'Pompe à chaleur Gaillard', description: 'Installation et maintenance de pompes à chaleur à Gaillard, Annemasse, Reignier. Devis PAC gratuit.' }
     },
     {
       path: '/galerie-photos',
       name: 'galerie',
       component: Galerie,
-      meta: {
-        title: 'Galerie photos',
-        description:
-          "Réalisations en plomberie, chauffage et pompes à chaleur en Haute-Savoie."
-      }
+      meta: { title: 'Galerie photos', description: 'Réalisations en plomberie, chauffage et pompes à chaleur en Haute-Savoie.' }
     },
     {
       path: '/mentions-legales',
       name: 'mentions',
       component: Mentions,
-      meta: {
-        title: 'Mentions légales',
-        description: "Informations légales et politique de confidentialité (RGPD)."
-      }
+      meta: { title: 'Mentions légales', description: 'Informations légales et politique de confidentialité (RGPD).' }
     },
     {
       path: '/avis-contact',
       name: 'contact',
       component: Contact,
-      meta: {
-        title: 'Avis & Contact',
-        description:
-          "Contactez MCS et découvrez les avis clients. Devis gratuits et réponse rapide."
-      }
+      meta: { title: 'Avis & Contact', description: 'Contactez MCS et découvrez les avis clients. Devis gratuits et réponse rapide.' }
     },
+    // ----- city landing pages -----
+    { path: '/pers-jussy',          name: 'persjussy',       component: PersJussy,       meta: { title: 'Plombier Pers-Jussy',          description: 'Plombier chauffagiste à Pers-Jussy (74). Dépannage 24 h, devis gratuit, installation et rénovation.' } },
+    { path: '/thones',              name: 'thones',          component: Thones,          meta: { title: 'Plombier Thônes',              description: 'Plombier à Thônes – réparation fuite, chauffe-eau, chaudière. Intervention rapide en Haute-Savoie.' } },
+    { path: '/la-roche-sur-foron',  name: 'laroche',         component: LaRocheSurForon, meta: { title: 'Chauffagiste La Roche-sur-Foron', description: 'Chauffagiste à La Roche-sur-Foron – entretien chaudière, radiateur, devis gratuit.' } },
+    { path: '/bonneville',          name: 'bonneville',      component: Bonneville,      meta: { title: 'Plombier Bonneville',          description: 'Plombier chauffagiste à Bonneville (74). Installation sanitaire, chaudière, dépannage.' } },
+    { path: '/annemasse',           name: 'annemasse',       component: Annemasse,       meta: { title: 'Plombier Annemasse',           description: 'Plombier à Annemasse – devis gratuit en 24 h, plomberie, chauffage, pompe à chaleur.' } },
+    { path: '/gaillard',            name: 'gaillard',        component: Gaillard,        meta: { title: 'Pompe à chaleur Gaillard',     description: 'Installation pompe à chaleur à Gaillard – PAC air/eau, entretien, devis gratuit.' } },
+    { path: '/saint-julien-en-genevois', name: 'saintjulien', component: SaintJulien,  meta: { title: 'Plombier Saint-Julien-en-Genevois', description: 'Plombier à Saint-Julien-en-Genevois – dépannage rapide, devis gratuit, chauffage.' } },
+    { path: '/cranves-sales',       name: 'cranves',         component: CranvesSales,    meta: { title: 'Plombier Cranves-Sales',       description: 'Plombier chauffagiste à Cranves-Sales (74). Installation, dépannage, devis clair.' } },
+    { path: '/monnetier-mornex',    name: 'monnetiermornex', component: MonnetierMornex, meta: { title: 'Plombier Monnetier-Mornex',    description: 'Plombier chauffagiste à Monnetier-Mornex (74). Installation, dépannage, devis clair.' } },
+
     { path: '/:pathMatch(.*)*', redirect: '/' }
   ]
 })
 
+// ------- existing meta & canonical helpers – unchanged -------
 function upsertMeta(selector, attrs) {
   let el = document.querySelector(selector)
   if (!el) {
     el = document.createElement('meta')
-    // set a sensible default attribute to ensure future selects work
     if (attrs.name) el.setAttribute('name', attrs.name)
     if (attrs.property) el.setAttribute('property', attrs.property)
     document.head.appendChild(el)
@@ -101,7 +235,6 @@ function upsertMeta(selector, attrs) {
   Object.entries(attrs).forEach(([k, v]) => el.setAttribute(k, v))
   return el
 }
-
 function upsertCanonical(href) {
   let link = document.querySelector("link[rel='canonical']")
   if (!link) {
@@ -111,29 +244,16 @@ function upsertCanonical(href) {
   }
   link.setAttribute('href', href)
 }
-
 router.afterEach((to) => {
   const baseTitle = to.meta?.title ? `${to.meta.title} – MCS` : 'MCS'
   const desc = to.meta?.description || 'Plombier chauffagiste à Reignier-Ésery et Haute-Savoie.'
-
-  // Title
   document.title = baseTitle
-
-  // Meta description
   upsertMeta("meta[name='description']", { name: 'description', content: desc })
-
-  // Canonical
-  const url = SITE_URL + (to.fullPath || to.path || '/')
-  upsertCanonical(url)
-
-  // Open Graph
   upsertMeta("meta[property='og:title']", { property: 'og:title', content: baseTitle })
   upsertMeta("meta[property='og:description']", { property: 'og:description', content: desc })
-  upsertMeta("meta[property='og:url']", { property: 'og:url', content: url })
-
-  // Twitter
   upsertMeta("meta[name='twitter:title']", { name: 'twitter:title', content: baseTitle })
   upsertMeta("meta[name='twitter:description']", { name: 'twitter:description', content: desc })
+  upsertCanonical(SITE_URL + (to.fullPath || to.path || '/'))
 })
 
 export default router

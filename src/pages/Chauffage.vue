@@ -1,12 +1,15 @@
 <template>
-  <div class="container justify-items-center">
-    <h1 class="text-3xl font-bold mb-4">CHAUFFAGISTE À REIGNIER-ÉSERY</h1>
-    <p class="max-w-3xl text-gray-700 text-center">
-      Installation et optimisation de systèmes de chauffage : chaudières, radiateurs, planchers chauffants,
-      régulation et entretien.
-    </p>
+  <div class="container justify-center justify-items-center">
+    <h1 class="text-3xl font-bold mb-4 text-center">CHAUFFAGISTE À REIGNIER-ÉSERY</h1>
+    <div class="mt-4 text-gray-700 text-center max-w-3xl mx-auto">
+      <p class="max-w-3xl text-gray-700 text-center">
+        Installation et optimisation de systèmes de chauffage : chaudières, radiateurs, planchers chauffants,
+        régulation et entretien.
+      </p>
+    </div>
+
     <div class="mt-8 grid md:grid-cols-2 gap-8 items-center flex-row-reverse">
-      <img src="https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/130801/chauffage-maison.webp" class="rounded-2xl shadow" alt="Chauffage" />
+      <img src="https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/130801/chauffage-maison.webp" class="rounded-2xl shadow" alt="MCS - Massonjo Chauffage Sanitaire, plombier chauffagiste à Reignier-Ésery et Haute-Savoie -- Chauffage" />
       <div>
         <h2 class="text-xl font-semibold mb-2">Confort thermique optimal</h2>
         <p class="text-gray-700">
@@ -65,7 +68,7 @@ Que vous soyez un particulier ou un professionnel, je vous garantis des équipem
           </p>
           <router-link to="/avis-contact" class="btn-primary mt-4 inline-flex">Demander un devis</router-link>
         </div>
-        <img src="https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/130801/chaudiere0.webp" class="rounded-2xl shadow" alt="Chauffage" />
+        <img src="https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/130801/chaudiere0.webp" class="rounded-2xl shadow" alt="MCS - Massonjo Chauffage Sanitaire, plombier chauffagiste à Reignier-Ésery et Haute-Savoie"  />
         
       </div>
     </div>

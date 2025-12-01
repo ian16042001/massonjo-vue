@@ -138,7 +138,7 @@ website.value = ''
 </script>
 
 <template>
-  <form @submit.prevent="submit" class="card space-y-4">
+  <form @submit.prevent="submit" class="card space-y-4 pt-5">
     <h3 class="text-xl font-semibold">Laisser votre avis</h3>
     <div class="grid md:grid-cols-2 gap-4">
       <div>

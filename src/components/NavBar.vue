@@ -2,7 +2,7 @@
   <header class="bg-white/90 backdrop-blur sticky top-0 z-40 border-b">
     <div class="container flex items-center justify-between py-4">
       <router-link to="/" class="flex items-center gap-2">
-        <img src="https://firebasestorage.googleapis.com/v0/b/massonjo-c0679.firebasestorage.app/o/Logo%2Flogo.png?alt=media&token=eaa675b9-9b39-4e29-b3b2-a9ae9fae87aa" alt="Logo" class="h-20 w-20" />
+        <img src="https://firebasestorage.googleapis.com/v0/b/massonjo-c0679.firebasestorage.app/o/Logo%2Flogo.png?alt=media&token=eaa675b9-9b39-4e29-b3b2-a9ae9fae87aa" alt="MCS - Massonjo Chauffage Sanitaire, plombier chauffagiste à Reignier-Ésery et Haute-Savoie - Logo" class="h-20 w-20" />
         <span class="font-bold text-lg">Massonjo Chauffage Sanitaire</span>
       </router-link>
       <button @click="open = !open" class="md:hidden btn-ghost">Menu</button>

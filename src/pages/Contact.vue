@@ -10,22 +10,22 @@
       <ReviewForm /> -->
     </div>
     <div class="space-y-4">
-      <div class="card">
-        <h3 class="font-semibold">Téléphone</h3>
-        <a class="block mt-1 hover:underline" href="tel:+33750972601">07 50 97 26 01</a>
+      <div class="card justify-center justify-items-center text-center">
+        <h1 class="text-1xl md:text-1xl font-extrabold leading-tight text-center text-primary"> Du lundi au samedi : de 08 h à 18 h </h1>
+        
+        <a class="block mt-1 hover:underline" href="tel:+33750972601">📞 : 07 50 97 26 01</a>
+
       </div>
-      <div class="card">
-        <h3 class="font-semibold">Adresse</h3>
-        <p class="mt-1">189 Rue des Moineaux, 74930 Reignier-Ésery</p>
+          <!-- Using the custom map component -->
+    <MapComponent />
         <a class="btn-ghost mt-3 inline-flex" target="_blank"
            href="https://www.google.fr/maps/place/189+Rue+des+Moineaux,+74930+Reignier-Esery,+France">
           Voir sur Google Maps
         </a>
-      </div>
     </div>
   </div>
 
-  <div class="container grid md:grid-cols-2 gap-10">
+  <div class="container grid md:grid-cols-2 gap-10 pt-5">
     <div>
 
       <ReviewsList />
@@ -41,4 +41,5 @@
 import ContactForm from '@/components/ContactForm.vue'
 import ReviewsList from '@/components/ReviewsList.vue'
 import ReviewForm from '@/components/ReviewForm.vue'
+import MapComponent from '@/components/MapComponent.vue' // Import the map component
 </script>

@@ -1,12 +1,14 @@
 <template>
-  <div class="container justify-center justify-items-center">
+  <div class="container justify-center justify-items-center ">
     <h1 class="text-3xl font-bold mb-4 text-center">PLOMBIER À REIGNIER-ÉSERY </h1>
-    <p class="max-w-3xl text-gray-700 text-center">
-      Installation, rénovation, dépannage et maintenance de vos équipements sanitaires : salles de bains, cuisines,
-      robinetterie, chauffe-eau, recherche de fuites.
-    </p>
+    <div class="mt-4 text-gray-700 text-center max-w-3xl mx-auto">
+      <p class="max-w-3xl text-gray-700 text-center  ">
+        Installation, rénovation, dépannage et maintenance de vos équipements sanitaires : salles de bains, cuisines,
+        robinetterie, chauffe-eau, recherche de fuites.
+      </p>
+    </div>
     <div class="grid md:grid-cols-2 gap-8 mt-8 items-start">
-      <img src="https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/130801/avant%20apres.png" class="rounded-2xl shadow" alt="Avant/Après" />
+      <img src="https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/130801/avant%20apres.png" class="rounded-2xl shadow" alt="MCS - Massonjo Chauffage Sanitaire, plombier chauffagiste à Reignier-Ésery et Haute-Savoie -- Avant/Après" />
       <div class="space-y-4">
         <h2 class="text-xl font-semibold">Prestations</h2>
         <ul class="list-disc pl-5 space-y-1 text-gray-700">

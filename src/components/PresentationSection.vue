@@ -2,7 +2,7 @@
   <section class="container py-12">
     <div class="grid md:grid-cols-3 gap-8 items-center">
       <div class="md:col-span-1 flex justify-center">
-        <img src="https://firebasestorage.googleapis.com/v0/b/massonjo-c0679.firebasestorage.app/o/Logo%2Flogo.png?alt=media&token=eaa675b9-9b39-4e29-b3b2-a9ae9fae87aa" alt="Logo MCS" class="h-48 w-48 md:h-56 md:w-56 rounded-full ring-2 ring-primary/20 bg-white p-4 object-contain" />
+        <img src="https://firebasestorage.googleapis.com/v0/b/massonjo-c0679.firebasestorage.app/o/Logo%2Flogo.png?alt=media&token=eaa675b9-9b39-4e29-b3b2-a9ae9fae87aa" alt="MCS - Massonjo Chauffage Sanitaire, plombier chauffagiste à Reignier-Ésery et Haute-Savoie"  class="h-48 w-48 md:h-56 md:w-56 rounded-full ring-2 ring-primary/20 bg-white p-4 object-contain" />
       </div>
       <div class="md:col-span-2">
         <h2 class="text-2xl font-bold mb-3">QUI SUIS-JE ?</h2>
