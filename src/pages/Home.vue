@@ -1,6 +1,9 @@
 <template>
   <div>
 
+<!-- <CityBanner /> -->
+
+
     <!-- Carousel -->
     <section class="container py-6">
       <Carousel :images="slides" />
@@ -19,38 +22,9 @@
       </div>
     </section>
 
-
     <HeroSection city="Reignier-Ésery" />
 
-    <section class="container py-12">
-      <div class="grid md:grid-cols-2 gap-8 items-start">
-        <div>
-          <h2 class="text-2xl font-bold mb-3">Votre expert plombier chauffagiste</h2>
-          <p class="text-gray-700">
-            Installations, rénovations et dépannages – je m'engage à fournir des solutions durables et efficaces
-            pour tous vos besoins en plomberie et chauffage.
-          </p>
-          <div class="mt-6 flex gap-3">
-            <router-link to="/avis-contact" class="btn-primary">Demander un devis</router-link>
-            <router-link to="/galerie-photos" class="btn-ghost">Voir les réalisations</router-link>
-          </div>
-        </div>
-        <div class="grid sm:grid-cols-3 gap-4">
-          <div class="card text-center">
-            <div class="text-4xl">⚡</div>
-            <div class="mt-2 font-semibold">Réactivité</div>
-          </div>
-          <div class="card text-center">
-            <div class="text-4xl">🏅</div>
-            <div class="mt-2 font-semibold">10+ ans d'expérience</div>
-          </div>
-          <div class="card text-center">
-            <div class="text-4xl">✅</div>
-            <div class="mt-2 font-semibold">Travail soigné</div>
-          </div>
-        </div>
-      </div>
-    </section>
+
 
     <!-- QUI SUIS-JE -->
     <PresentationSection />
@@ -59,17 +33,17 @@
       <h2 class="text-2xl font-bold mb-6 text-center">Les Services De Votre Plombier chauffagiste Près De Annemasse</h2>
       <div class="grid md:grid-cols-3 gap-6">
         <ServiceCard title="Plomberie sanitaire" to="/plomberie-sanitaire"
-                     img="https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/130801/salle-bain0.webp">
+                     img="https://firebasestorage.googleapis.com/v0/b/massonjo-c0679.firebasestorage.app/o/salle-bain0.webp?alt=media&token=5e4e6014-b275-448d-ac01-c9bdef4ddd1e">
           Installation, rénovation et maintenance d'équipements sanitaires.
           En tant que plombier qualifié, je m’occupe de tous vos travaux de plomberie sanitaire. Que ce soit pour l'installation de nouveaux équipements, la rénovation de votre salle de bains ou la réparation de fuites, je vous garantis des interventions rapides et efficaces. Mon objectif est de vous garantir des solutions durables et adaptées à vos besoins spécifiques.
         </ServiceCard>
         <ServiceCard title="Systèmes de chauffage" to="/chauffage"
-                     img="https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/130801/chauffage.webp">
+                     img="https://firebasestorage.googleapis.com/v0/b/massonjo-c0679.firebasestorage.app/o/chauffage.webp?alt=media&token=8f3e2d4a-9c3b-4d2e-9f3e-2d4a9c3b4d2e">
           Chaudière, radiateurs, optimisation thermique et confort.
           Je suis également spécialisé dans les systèmes de chauffage. Que vous souhaitiez installer une nouvelle chaudière, remplacer un radiateur ou optimiser votre système thermique, je vous accompagne à chaque étape du projet, de la conception à la livraison. Mon expertise vous assure des installations de chauffage conformes aux normes et un confort thermique optimal.
         </ServiceCard>
         <ServiceCard title="Pompes à chaleur" to="/pompe-a-chaleur"
-                     img="https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/130801/pompe.webp">
+                     img="https://firebasestorage.googleapis.com/v0/b/massonjo-c0679.firebasestorage.app/o/pompe.webp?alt=media&token=0418a997-c664-4b95-af6e-b9b74245996a">
           Solutions écologiques et économiques pour votre logement.
           La pompe à chaleur (PAC) est une solution de chauffage écologique et économique. En tant qu’expert, je vous propose l’installation et la maintenance de pompes à chaleur pour chauffer votre logement et produire de l’eau chaude sanitaire. Optez pour une PAC pour réduire votre facture énergétique
         </ServiceCard>
@@ -99,6 +73,7 @@ import ServiceCard from '@/components/ServiceCard.vue'
 import Carousel from '@/components/Carousel.vue'
 import PresentationSection from '@/components/PresentationSection.vue'
 import PartnersSection from '@/components/PartnersSection.vue'
+// import CityBanner from '@/components/CityBanner.vue'
 
 const slides = [
   { src: 'https://firebasestorage.googleapis.com/v0/b/massonjo-c0679.firebasestorage.app/o/images%2Fbandeau1.webp?alt=media&token=355f482f-cdd8-42b1-bca7-bdc664f78467', alt: 'MCS - Massonjo Chauffage Sanitaire, plombier chauffagiste à Reignier-Ésery et Haute-Savoie - Salle de bains rénovée', caption: '' },
@@ -106,11 +81,11 @@ const slides = [
 ]
 
 const partners = [
-  { name: 'partenaire0', logo: 'https://www.cedeo.fr/_next/image?url=https%3A%2F%2Fwww.cedeo.fr%2Fsites%2Fdefault%2Ffiles%2Flogo%2Flogo_cedeo_nouv.png&w=1920&q=75', url: 'https://www.cedeo.fr/' },
-  { name: 'partenaire2', logo: 'https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/130801/partenaire2.webp', url: 'https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.richardson.fr/&ved=2ahUKEwjhzIiz8PeGAxVGVaQEHUXJBIwQFnoECAYQAQ&usg=AOvVaw2T0S56pPqwvOdJYjHLoM7b' },
-  { name: 'partenaire1', logo: 'https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/130801/partenaire1.webp', url: 'https://www.novasanit.fr/' },
-  { name: 'partenaire3', logo: 'https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/130801/partenaire3.webp', url: 'https://www.comptoirdesfers.com/' },
-  { name: 'partenaire6', logo: 'https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/130801/PUM-PLASTIQUE.jpg', url: 'https://www.mypum.fr/' },
+  { name: 'partenaire0', logo: 'https://firebasestorage.googleapis.com/v0/b/massonjo-c0679.firebasestorage.app/o/partmer4.png?alt=media&token=6a1dd375-5ac1-4006-b4fd-6156a8be5316', url: 'https://www.cedeo.fr/' },
+  { name: 'partenaire2', logo: 'https://firebasestorage.googleapis.com/v0/b/massonjo-c0679.firebasestorage.app/o/partenaire2.webp?alt=media&token=69dc7a0e-b58c-498e-8290-cea819477e3a', url: 'https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.richardson.fr/&ved=2ahUKEwjhzIiz8PeGAxVGVaQEHUXJBIwQFnoECAYQAQ&usg=AOvVaw2T0S56pPqwvOdJYjHLoM7b' },
+  { name: 'partenaire1', logo: 'https://firebasestorage.googleapis.com/v0/b/massonjo-c0679.firebasestorage.app/o/partenaire1.webp?alt=media&token=71315f40-5440-4a15-829e-89eb8c26c255', url: 'https://www.novasanit.fr/' },
+  { name: 'partenaire3', logo: 'https://firebasestorage.googleapis.com/v0/b/massonjo-c0679.firebasestorage.app/o/partenaire3.webp?alt=media&token=88f23a84-36f4-43de-8b49-5b9e83be68c7', url: 'https://www.comptoirdesfers.com/' },
+  { name: 'partenaire6', logo: 'https://firebasestorage.googleapis.com/v0/b/massonjo-c0679.firebasestorage.app/o/PUM-PLASTIQUE.jpg?alt=media&token=64c5ab01-e3db-4fec-8d2b-7cc7fa2f6295', url: 'https://www.mypum.fr/' },
 
 ]
 </script>

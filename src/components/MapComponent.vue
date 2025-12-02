@@ -39,7 +39,7 @@ L.Icon.Default.mergeOptions({
 
 onMounted(() => {
   if (mapContainer.value) {
-    const map = L.map(mapContainer.value).setView([46.13251, 6.26666], 15);
+    const map = L.map(mapContainer.value).setView([46.13689558849452, 6.28122578650677], 15);
     
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '© OpenStreetMap contributors'
@@ -60,7 +60,7 @@ onMounted(() => {
       iconAnchor: [15, 42]
     });
     
-    L.marker([46.13251, 6.26666], { icon: customIcon })
+    L.marker([46.13689558849452, 6.28122578650677], { icon: customIcon })
       .addTo(map)
       .bindPopup(`
         <div class="custom-popup">

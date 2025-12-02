@@ -1,6 +1,37 @@
 <template>
-  <section class="container py-12">
-    <div class="grid md:grid-cols-3 gap-8 items-center">
+
+    <section class="container py-12">
+      <div class="grid md:grid-cols-2 gap-8 items-start">
+        <div>
+          <h2 class="text-2xl font-bold mb-3">Votre expert plombier chauffagiste</h2>
+          <p class="text-gray-700">
+            Installations, rénovations et dépannages – je m'engage à fournir des solutions durables et efficaces
+            pour tous vos besoins en plomberie et chauffage.
+          </p>
+          <div class="mt-6 flex gap-3">
+            <router-link to="/avis-contact" class="btn-primary">Demander un devis</router-link>
+            <router-link to="/galerie-photos" class="btn-ghost">Voir les réalisations</router-link>
+          </div>
+        </div>
+        <div class="grid sm:grid-cols-3 gap-4">
+          <div class="card text-center">
+            <div class="text-4xl">⚡</div>
+            <div class="mt-2 font-semibold">Réactivité</div>
+          </div>
+          <div class="card text-center">
+            <div class="text-4xl">🏅</div>
+            <div class="mt-2 font-semibold">10+ ans d'expérience</div>
+          </div>
+          <div class="card text-center">
+            <div class="text-4xl">✅</div>
+            <div class="mt-2 font-semibold">Travail soigné</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <section class="container py-12 inset-0 bg-gradient-to-br from-primary/10 to-purple-200 rounded-2xl shadow-lg px-6 md:px-12">
+    <div class="grid md:grid-cols-3 gap-8 items-center ">
       <div class="md:col-span-1 flex justify-center">
         <img src="https://firebasestorage.googleapis.com/v0/b/massonjo-c0679.firebasestorage.app/o/Logo%2Flogo.png?alt=media&token=eaa675b9-9b39-4e29-b3b2-a9ae9fae87aa" alt="MCS - Massonjo Chauffage Sanitaire, plombier chauffagiste à Reignier-Ésery et Haute-Savoie"  class="h-48 w-48 md:h-56 md:w-56 rounded-full ring-2 ring-primary/20 bg-white p-4 object-contain" />
       </div>

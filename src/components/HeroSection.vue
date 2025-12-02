@@ -15,7 +15,7 @@
         </div>
       </div>
       <div class="md:justify-self-end">
-        <img :alt="`MCS - Massonjo Chauffage Sanitaire, plombier chauffagiste à ${city} et Haute-Savoie`"  src="https://local-fr-public.s3.eu-west-3.amazonaws.com/prod/webtool/userfiles/130801/image.webp" class="rounded-2xl shadow-lg w-full max-w-xl">
+        <img :alt="`MCS - Massonjo Chauffage Sanitaire, plombier chauffagiste à ${city} et Haute-Savoie`"  src="https://firebasestorage.googleapis.com/v0/b/massonjo-c0679.firebasestorage.app/o/image.webp?alt=media&token=58aa2fb8-e12a-4d4d-8dc1-8b49b33c95d6" class="rounded-2xl shadow-lg w-full max-w-xl">
       </div>
     </div>
   </section>

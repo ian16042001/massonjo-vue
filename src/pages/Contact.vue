@@ -13,7 +13,7 @@
       <div class="card justify-center justify-items-center text-center">
         <h1 class="text-1xl md:text-1xl font-extrabold leading-tight text-center text-primary"> Du lundi au samedi : de 08 h à 18 h </h1>
         
-        <a class="block mt-1 hover:underline" href="tel:+33750972601">📞 : 07 50 97 26 01</a>
+        <a class="btn-ghost" href="tel:+33750972601">📞 07 50 97 26 01</a>
 
       </div>
           <!-- Using the custom map component -->
@@ -26,14 +26,14 @@
   </div>
 
   <div class="container grid md:grid-cols-2 gap-10 pt-5">
-    <div>
-
-      <ReviewsList />
-      <!-- <ReviewForm /> -->
-    </div>
     <div class="space-y-4">
       <ReviewForm />
     </div>
+    <div>
+      <ReviewsList />
+      <!-- <ReviewForm /> -->
+    </div>
+
   </div>
 </template>
 
