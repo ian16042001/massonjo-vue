@@ -35,7 +35,7 @@ defineProps({
   cities: {
     type: Array,
     default: () => [
-      "Annemasse","La Roche-sur-Foron","Gaillard", "Pers-Jussy","Monnetier-Mornex","Fillinges","Bonneville", "Arthaz-Pont-Notre-Dame", "Nangy", "Vetrazmonthoux", "La muraz", "cornier", "Bonne", "Scientrier", "Entrembieres", "Contaminé-Sur-Arve", "Cranves-Sales","Arbusigny", "Douvaine", "Mieussy", "Charvonnex", "Lully", "Bons-en-Chablais", "Copponex", "Ballaison", "La tour", "Neyden", "Ayse", "Étaux"
+      "Annemasse","La Roche-sur-Foron","Gaillard", "Pers-Jussy","Monnetier-Mornex","Fillinges","Bonneville", "Arthaz-Pont-Notre-Dame", "Nangy", "Vetraz-monthoux", "La muraz", "cornier", "Bonne", "Scientrier", "Entrembieres", "Contaminé-Sur-Arve", "Cranves-Sales","Arbusigny", "Douvaine", "Mieussy", "Charvonnex", "Lully", "Bons-en-Chablais", "Copponex", "Ballaison", "La tour", "Neyden", "Ayse", "Étaux"
 
 
 

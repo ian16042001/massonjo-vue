@@ -4,7 +4,9 @@
     <section class="container py-6">
       <Carousel :images="slides" />
       <h1 class="text-3xl md:text-3xl font-extrabold leading-tight text-center pt-3 text-primary">PLOMBIER CHAUFFAGISTE À ANNEMASSE</h1>
-      <h1 class="text-3xl md:text-3xl font-extrabold leading-tight text-center pt-3 text-primary">MASSONJO CHAUFFAGE SANITAIRE</h1>
+          <h2 class="text-2xl md:text-2xl font-bold leading-tight text-center pt-3 text-primary">
+      MASSONJO CHAUFFAGE SANITAIRE
+    </h2>
       <div class="mt-4 text-gray-700 text-center max-w-3xl mx-auto">
         <p>
           Votre expert plombier chauffagiste dédié à l'excellence dans tous vos projets d'installation et de maintenance.

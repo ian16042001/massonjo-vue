@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://www.massonjo-chauffage-sanitaire.fr/</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://www.massonjo-chauffage-sanitaire.fr/plombier-chauffagiste-services</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.massonjo-chauffage-sanitaire.fr/plomberie-sanitaire</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.massonjo-chauffage-sanitaire.fr/chauffage</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.massonjo-chauffage-sanitaire.fr/pompe-a-chaleur</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.massonjo-chauffage-sanitaire.fr/galerie-photos</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.massonjo-chauffage-sanitaire.fr/plombier-chauffagiste-chauffage</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.massonjo-chauffage-sanitaire.fr/plombier-chauffagiste-pompe-a-chaleur</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.massonjo-chauffage-sanitaire.fr/plombier-chauffagiste-galerie-photos</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.massonjo-chauffage-sanitaire.fr/mentions-legales</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>
   <url><loc>https://www.massonjo-chauffage-sanitaire.fr/avis-contact</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 
@@ -18,4 +19,27 @@
   <url><loc>https://www.massonjo-chauffage-sanitaire.fr/saint-julien-en-genevois</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.massonjo-chauffage-sanitaire.fr/cranves-sales</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.massonjo-chauffage-sanitaire.fr/monnetier-mornex</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.massonjo-chauffage-sanitaire.fr/ballaison</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.massonjo-chauffage-sanitaire.fr/bonne</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.massonjo-chauffage-sanitaire.fr/cornier</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.massonjo-chauffage-sanitaire.fr/entrembieres</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.massonjo-chauffage-sanitaire.fr/la-muraz</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.massonjo-chauffage-sanitaire.fr/scientrier</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.massonjo-chauffage-sanitaire.fr/vetraz-monthoux</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.massonjo-chauffage-sanitaire.fr/nangy</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.massonjo-chauffage-sanitaire.fr/arthaz-pont-notre-dame</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.massonjo-chauffage-sanitaire.fr/contamine-sur-arve</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.massonjo-chauffage-sanitaire.fr/fillinges</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.massonjo-chauffage-sanitaire.fr/arbusigny</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.massonjo-chauffage-sanitaire.fr/douvaine</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.massonjo-chauffage-sanitaire.fr/mieussy</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.massonjo-chauffage-sanitaire.fr/charvonnex</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.massonjo-chauffage-sanitaire.fr/lully</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.massonjo-chauffage-sanitaire.fr/bons-en-chablais</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.massonjo-chauffage-sanitaire.fr/copponex</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.massonjo-chauffage-sanitaire.fr/la-tour</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.massonjo-chauffage-sanitaire.fr/neyden</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.massonjo-chauffage-sanitaire.fr/ayse</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.massonjo-chauffage-sanitaire.fr/etaux</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
 </urlset>

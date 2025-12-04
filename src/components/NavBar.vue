@@ -15,10 +15,11 @@
       <div class="hidden md:flex items-center gap-4">
         <nav class="flex items-center gap-6">
           <router-link to="/" class="hover:text-primary">Accueil</router-link>
+          <router-link to="/plombier-chauffagiste-services" class="hover:text-primary">Services</router-link>
           <router-link to="/plomberie-sanitaire" class="hover:text-primary">Plomberie</router-link>
-          <router-link to="/chauffage" class="hover:text-primary">Chauffage</router-link>
+          <router-link to="/plombier-chauffagiste-chauffage" class="hover:text-primary">Chauffage</router-link>
           <router-link to="/pompe-a-chaleur" class="hover:text-primary">Pompe à chaleur</router-link>
-          <router-link to="/galerie-photos" class="hover:text-primary">Galerie</router-link>
+          <router-link to="/plombier-chauffagiste-galerie-photos" class="hover:text-primary">Galerie</router-link>
           <router-link to="/avis-contact" class="btn-primary">Devis / Contact</router-link>
         </nav>
 
@@ -47,16 +48,17 @@
     <div v-if="open" class="md:hidden border-t bg-white">
       <div class="container py-3 flex flex-col gap-3">
         <router-link @click="open = false" to="/">Accueil</router-link>
+        <router-link @click="open = false" to="/plombier-chauffagiste-services">Services</router-link>
         <router-link @click="open = false" to="/plomberie-sanitaire">Plomberie</router-link>
-        <router-link @click="open = false" to="/chauffage">Chauffage</router-link>
+        <router-link @click="open = false" to="/plombier-chauffagiste-chauffage">Chauffage</router-link>
         <router-link @click="open = false" to="/pompe-a-chaleur">Pompe à chaleur</router-link>
-        <router-link @click="open = false" to="/galerie-photos">Galerie</router-link>
+        <router-link @click="open = false" to="/plombier-chauffagiste-galerie-photos">Galerie</router-link>
         <router-link @click="open = false" to="/avis-contact" class="btn-primary w-full text-center">Devis / Contact</router-link>
 
         <!-- mobile call button -->
         <a
           href="tel:+33750972601"
-          class="btn-primary w-full text-center flex items-center justify-center gap-2 mt-2"
+          class="btn-ghost w-full text-center flex items-center justify-center gap-2 mt-2"
         >
           <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path

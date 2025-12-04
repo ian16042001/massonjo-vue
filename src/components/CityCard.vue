@@ -16,7 +16,7 @@ const props = defineProps({ name: String })
 
 /* slugify :  La Roche-sur-Foron → la-roche-sur-foron */
 const route = computed(() =>
-  '/' +
+  '/plombier-chauffagiste-' +
   props.name
     .toLowerCase()
     .normalize('NFD')
