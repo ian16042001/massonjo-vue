@@ -18,7 +18,7 @@
           <router-link to="/plombier-chauffagiste-services" class="hover:text-primary">Services</router-link>
           <router-link to="/plomberie-sanitaire" class="hover:text-primary">Plomberie</router-link>
           <router-link to="/plombier-chauffagiste-chauffage" class="hover:text-primary">Chauffage</router-link>
-          <router-link to="//plombier-chauffagiste-pompe-a-chaleur" class="hover:text-primary">Pompe à chaleur</router-link>
+          <router-link to="/plombier-chauffagiste-pompe-a-chaleur" class="hover:text-primary">Pompe à chaleur</router-link>
           <router-link to="/plombier-chauffagiste-galerie-photos" class="hover:text-primary">Galerie</router-link>
           <router-link to="/avis-contact" class="btn-primary">Devis / Contact</router-link>
         </nav>

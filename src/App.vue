@@ -7,6 +7,8 @@
       <router-view />
     </main>
 
+      <ScrollToTop />
+
     <FooterBar />
         <!-- cookie banner -->
     <CookieBanner />
@@ -18,4 +20,5 @@ import NavBar from './components/NavBar.vue'
 import FooterBar from './components/FooterBar.vue'
 import TopBar from './components/TopBar.vue'
 import CookieBanner from '@/components/CookieBanner.vue'
+import ScrollToTop from '@/components/ScrollToTop.vue'
 </script>
