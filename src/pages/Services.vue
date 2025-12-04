@@ -112,7 +112,7 @@
           </svg>
           <span class="font-semibold">07 50 97 26 01</span>
         </a>
-        <RouterLink to="/pompe-a-chaleur" class="text-primary font-semibold hover:underline">En savoir plus →</RouterLink>
+        <RouterLink to="/plombier-chauffagiste-pompe-a-chaleur" class="text-primary font-semibold hover:underline">En savoir plus →</RouterLink>
       </div>
 
       <!-- Rénovation -->
