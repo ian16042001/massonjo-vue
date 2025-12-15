@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1 class="text-3xl font-bold mb-6 text-center">Galerie photos de votre plombier chauffagiste à Reignier-Ésery </h1>
+    <h1 class="text-3xl font-bold mb-6 text-center">Galerie photos de votre plombier chauffagiste à Reignier-Ésery et Annemasse </h1>
 
     <div class="container grid md:grid-cols-2 gap-8 items-center mb-5 bg-gradient-to-br from-primary/10 to-purple-200 rounded-2xl shadow-lg px-6 md:px-12 py-6">
       <div class="space-y-3 text-gray-700">
@@ -24,7 +24,10 @@
     <div class="grid md:grid-cols-3 gap-6">
       <BeforeAfter
         before="https://firebasestorage.googleapis.com/v0/b/massonjo-c0679.firebasestorage.app/o/images%2Favant%25204.webp?alt=media&token=bb0a9c5d-a15d-4a80-a025-d52a86216bd2"
-        after="https://firebasestorage.googleapis.com/v0/b/massonjo-c0679.firebasestorage.app/o/images%2Fapres%25204.webp?alt=media&token=ac4db266-c06f-4f7a-a138-69d5a550e4c3" />
+        after="https://firebasestorage.googleapis.com/v0/b/massonjo-c0679.firebasestorage.app/o/images%2FIMG_2533.webp?alt=media&token=00168105-1415-4330-8f71-03a4ff724957" />
+              <!-- <BeforeAfter
+        before="https://firebasestorage.googleapis.com/v0/b/massonjo-c0679.firebasestorage.app/o/images%2Favant%25204.webp?alt=media&token=bb0a9c5d-a15d-4a80-a025-d52a86216bd2"
+        after="https://firebasestorage.googleapis.com/v0/b/massonjo-c0679.firebasestorage.app/o/images%2FIMG_2532.webp?alt=media&token=7091d442-f82d-4ab3-b986-4a896a5f59c9" /> -->
       <BeforeAfter
         before="https://firebasestorage.googleapis.com/v0/b/massonjo-c0679.firebasestorage.app/o/avant%201.jpg?alt=media&token=94b30964-003d-4d36-9599-e08b59b11c5e"
         after="https://firebasestorage.googleapis.com/v0/b/massonjo-c0679.firebasestorage.app/o/apres%201.jpg?alt=media&token=46b566f8-d1b6-423e-8a97-5fed1c1f34bd" />
@@ -47,5 +50,6 @@ const photos = [
   { src: 'https://firebasestorage.googleapis.com/v0/b/massonjo-c0679.firebasestorage.app/o/galeri1.webp?alt=media&token=db878671-6968-43ab-aa36-d4f18fcb9f47', alt: 'MCS - Massonjo Chauffage Sanitaire, plombier chauffagiste à Reignier-Ésery et Haute-Savoie - Douche à Reignier-Ésery' },
   { src: 'https://firebasestorage.googleapis.com/v0/b/massonjo-c0679.firebasestorage.app/o/galeri3.webp?alt=media&token=ea57d930-d187-4c98-ba2f-0a7bfbb96343', alt: 'MCS - Massonjo Chauffage Sanitaire, plombier chauffagiste à Reignier-Ésery et Haute-Savoie - Équipement sanitaire' },
   { src: 'https://firebasestorage.googleapis.com/v0/b/massonjo-c0679.firebasestorage.app/o/galeri4.webp?alt=media&token=53595f15-2fe6-4980-9586-eac875092988', alt: 'MCS - Massonjo Chauffage Sanitaire, plombier chauffagiste à Reignier-Ésery et Haute-Savoie - Rénovation salle de bains' },
+  { src: 'https://firebasestorage.googleapis.com/v0/b/massonjo-c0679.firebasestorage.app/o/images%2FIMG_2532.webp?alt=media&token=7091d442-f82d-4ab3-b986-4a896a5f59c9', alt: 'MCS - Massonjo Chauffage Sanitaire, plombier chauffagiste à Reignier-Ésery et Haute-Savoie - Installation chauffage' },
 ]
 </script>

@@ -5,7 +5,7 @@
     <div class="mt-4 text-gray-700 text-center max-w-3xl mx-auto">
       <p class="max-w-3xl text-gray-700 text-center">
         Installation et optimisation de systèmes de chauffage : chaudières, radiateurs, planchers chauffants,
-        régulation et entretien.
+        régulation et entretien (Annemasse et environ).
       </p>
     </div>
 
@@ -20,8 +20,8 @@ J’interviens pour l’installation, la réparation et l’entretien de divers 
 
 Que vous soyez un particulier ou un professionnel, je vous garantis des équipements écologiques et performants qui correspondent le plus à vos besoins et à votre budget.
         </p>
-        <router-link to="/avis-contact" class="btn-primary mt-4 inline-flex">Demander un devis</router-link>
-        <a class="btn-ghost ml-2" href="tel:+33750972601">📞 07 50 97 26 01</a>
+        <router-link to="/avis-contact" class="btn-primary mt-4 inline-flex mr-2">Demander un devis</router-link>
+        <a class="btn-ghost mt-2" href="tel:+33750972601">📞 07 50 97 26 01</a>
       </div>
     </div>
   </div>
@@ -66,7 +66,7 @@ Que vous soyez un particulier ou un professionnel, je vous garantis des équipem
 
               Cette intervention permet d’optimiser l’agencement des lieux et d’améliorer la distribution de la chaleur. 
 
-              Mes services couvrent aussi le remplacement de ballons d'eau chaude près de Pers-Jussy.
+              Mes services couvrent aussi le remplacement de ballons d'eau chaude près de Annemasse et Pers-Jussy.
 
               Si votre équipement est vétuste ou inefficace, je vous propose des solutions adaptées à vos besoins et à votre budget, garantissant une production d'eau chaude fiable et économique.
           </p>

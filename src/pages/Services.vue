@@ -6,7 +6,7 @@
         Services Plomberie Chauffage
       </h1>
       <h2 class="text-2xl md:text-3xl font-bold text-gray-700 mb-8 max-w-3xl mx-auto">
-        Tous vos travaux de plomberie, chauffage et rénovation à Reignier-Ésery et Haute-Savoie
+        Tous vos travaux de plomberie, chauffage et rénovation à Reignier-Ésery, Annemasse et Haute-Savoie
       </h2>
       <p class="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
         Changement mitigeur évier lavabo, création salle de bain, pose pompe à chaleur, réparation fuite, 
@@ -26,7 +26,7 @@
         <h3 class="text-2xl font-bold text-gray-900 mb-4">Plomberie Sanitaire</h3>
         <ul class="space-y-2 text-gray-600 mb-6">
           <li>• Changement mitigeur évier et lavabo</li>
-          <li>• Réparation de fuite urgente 24h</li>
+          <li>• Réparation de fuite urgente</li>
           <li>• Pose appareil sanitaire et meuble</li>
           <li>• Changement compteur d'eau</li>
           <li>• Changement WC et pose bâti-support</li>
@@ -63,7 +63,6 @@
           <li>• Changement de radiateur</li>
           <li>• Changement réseau chauffage</li>
           <li>• Changement cumulus chauffe-eau</li>
-          <li>• Entretien annuel obligatoire</li>
         </ul>
         <a
           href="tel:+33750972601"
@@ -95,8 +94,7 @@
           <li>• Pose pompe à chaleur air/eau</li>
           <li>• Installation PAC gainable</li>
           <li>• Remplacement système ancien</li>
-          <li>• Aides MaPrimeRénov'</li>
-          <li>• Entretien et maintenance</li>
+          <!-- <li>• Aides MaPrimeRénov'</li> -->
         </ul>
         <a
           href="tel:+33750972601"

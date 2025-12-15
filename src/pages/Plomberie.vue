@@ -2,7 +2,7 @@
     <section class="container py-12 inset-0 bg-gradient-to-br from-primary/10 to-purple-200 rounded-2xl shadow-lg px-6 md:px-12">
 
   <div class="container justify-center justify-items-center  ">
-    <h1 class="text-3xl font-bold mb-4 text-center">PLOMBIER À REIGNIER-ÉSERY </h1>
+    <h1 class="text-3xl font-bold mb-4 text-center">PLOMBIER À REIGNIER-ÉSERY ET ANNEMASSE </h1>
     <div class="mt-4 text-gray-700 text-center max-w-3xl mx-auto">
       <p class="max-w-3xl text-gray-700 text-center  ">
         Installation, rénovation, dépannage et maintenance de vos équipements sanitaires : salles de bains, cuisines,

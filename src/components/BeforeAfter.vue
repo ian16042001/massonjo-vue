@@ -1,6 +1,6 @@
 <template>
   <div class="relative w-full max-w-3xl overflow-hidden rounded-2xl shadow">
-    <img :style="{height: '16cm'}" :src="after" alt="MCS - Massonjo Chauffage Sanitaire, plombier chauffagiste à Reignier-Ésery et Haute-Savoie"  class="block w-full select-none pointer-events-none">
+    <img  :src="after" alt="MCS - Massonjo Chauffage Sanitaire, plombier chauffagiste à Reignier-Ésery et Haute-Savoie"  class="block w-full select-none pointer-events-none">
     <div class="absolute inset-0 overflow-hidden" :style="{ width: percent + '%' }">
       <img :src="before" alt="MCS - Massonjo Chauffage Sanitaire, plombier chauffagiste à Reignier-Ésery et Haute-Savoie"  class="block w-full select-none pointer-events-none">
     </div>

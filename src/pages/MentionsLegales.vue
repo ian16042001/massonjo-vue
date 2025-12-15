@@ -32,7 +32,7 @@
           <li><strong>Téléphone&nbsp;:</strong> <a href="tel:+33750972601" class="text-primary hover:underline">07 50 97 26 01</a></li>
           <li><strong>E-mail&nbsp;:</strong> <a href="mailto:massonjoetfils@gmail.com" class="text-primary hover:underline">massonjoetfils@gmail.com</a></li>
           <li><strong>Directeur de publication&nbsp;:</strong> Jacob MASSONJO</li>
-          <li><strong>SIREN&nbsp;:</strong> 929 112 332 | <strong>SIRET&nbsp;:</strong> 929 112 332 00010 | <strong>TVA&nbsp;:</strong> FR 07 929 112 332</li>
+          <li><strong>SIREN&nbsp;:</strong> 989 096 854 | <strong>SIRET&nbsp;:</strong> 989 096 854 00017 | <strong>TVA&nbsp;:</strong> FR 46 989 096 854</li>
         </ul>
       </Card>
 

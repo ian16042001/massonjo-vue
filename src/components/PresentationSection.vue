@@ -10,7 +10,7 @@
           </p>
           <div class="mt-6 flex gap-3">
             <router-link to="/avis-contact" class="btn-primary">Demander un devis</router-link>
-            <router-link to="/galerie-photos" class="btn-ghost">Voir les réalisations</router-link>
+            <router-link to="/plombier-chauffagiste-galerie-photos" class="btn-ghost">Voir les réalisations</router-link>
           </div>
         </div>
         <div class="grid sm:grid-cols-3 gap-4">
