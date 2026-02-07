@@ -10,6 +10,9 @@ const Mentions        = () => import('../pages/MentionsLegales.vue')
 const Contact         = () => import('../pages/Contact.vue')
 const Services        = () => import('../pages/Services.vue')
 const Presentation    = () => import('../pages/PresentationQR.vue')
+const Reservation     = () => import('../pages/Reservation.vue')
+const AdminDashboard  = () => import('../pages/admin/AdminDashboard.vue')
+const AdminLogin      = () => import('../pages/admin/AdminLogin.vue')
 
 // ---- new city pages ----
 const PersJussy       = () => import('../pages/cities/PersJussy.vue')
@@ -104,6 +107,28 @@ const router = createRouter({
       name: 'presentation',
       component: Presentation,
       meta: { title: 'Présentation MCS', description: 'Découvrez Massonjo Chauffage Sanitaire : plombier chauffagiste à Reignier-Ésery, Annemasse et Haute-Savoie. Expertise, services et engagement qualité.' }
+    },
+    // {
+    //   path: '/reservation-devis',
+    //   name: 'reservation',
+    //   // beforeEnter() {
+    //   //   window.location.href = 'https://calendly.com/massonjo-chauffage-sanitaire/30min'
+    //   // }
+    //   component: Reservation,
+    //   meta: { title: 'Réservation Devis', description: 'Réservez votre devis gratuit en ligne avec Massonjo Chauffage Sanitaire. Plombier chauffagiste à Reignier-Ésery, Annemasse et Haute-Savoie.' }
+    // },
+    { path: '/reservation', name: 'reservation', component: Reservation, meta: { title: 'Réservation', description: 'Réservation en ligne – créneaux disponibles. Intervention et Visite de contrôle avec votre Plombier chauffagiste Reignier-Ésery, Annemasse et Haute-Savoie.' } },
+    {
+    path: '/admin/:token',
+    name: 'AdminAutoLogin',
+    component: AdminLogin,
+    meta: { title: 'Admin - Massonjo' }
+    },
+    {
+      path: '/admin/dashboard/:token',
+      name: 'AdminDashboard',
+      component: AdminDashboard,
+      meta: { title: 'Panel Admin - Massonjo', requiresAuth: true }
     },
     // ----- city landing pages -----
     

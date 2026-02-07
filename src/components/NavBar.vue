@@ -16,6 +16,7 @@
         <nav class="flex items-center gap-6">
           <router-link to="/" class="hover:text-primary">Accueil</router-link>
           <router-link to="/plombier-chauffagiste-services" class="hover:text-primary">Services</router-link>
+          <router-link to="/reservation" class="hover:text-primary">Réservation</router-link>
           <router-link to="/plomberie-sanitaire" class="hover:text-primary">Plomberie</router-link>
           <router-link to="/plombier-chauffagiste-chauffage" class="hover:text-primary">Chauffage</router-link>
           <router-link to="/plombier-chauffagiste-pompe-a-chaleur" class="hover:text-primary">Pompe à chaleur</router-link>
@@ -49,6 +50,7 @@
       <div class="container py-3 flex flex-col gap-3">
         <router-link @click="open = false" to="/">Accueil</router-link>
         <router-link @click="open = false" to="/plombier-chauffagiste-services">Services</router-link>
+          <router-link to="/reservation" class="hover:text-primary">Réservation</router-link>
         <router-link @click="open = false" to="/plomberie-sanitaire">Plomberie</router-link>
         <router-link @click="open = false" to="/plombier-chauffagiste-chauffage">Chauffage</router-link>
         <router-link @click="open = false" to="/pompe-a-chaleur">Pompe à chaleur</router-link>

@@ -6,10 +6,13 @@
         <h1 class="text-3xl font-bold mb-3">Avis & Contact</h1>
         <p class="text-gray-700 mb-6">Expliquez votre besoin et recevez un devis rapidement.</p>
         <ContactForm />
+
       </div>
 
       <div class="space-y-4">
         <div class="card text-center">
+        <router-link to="/reservation" class="btn-primary mt-4 inline-block">Faites une réservation en ligne</router-link>
+<p class="mb-2">ou contactez-nous directement.</p>
           <h2 class="text-lg font-bold text-primary">Horaires</h2>
           <p class="mt-2">Du lundi au samedi : 08 h – 18 h</p>
           <a href="tel:+33750972601" class="btn-ghost mt-3 inline-flex">
