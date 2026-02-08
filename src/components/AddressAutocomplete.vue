@@ -2,18 +2,18 @@
   <div>
     <label class="block text-sm font-medium text-gray-700 mb-1">Adresse *</label>
     <div class="relative">
-      <textarea
+      <input
         v-model="form.address"
         @input="onAddressInput"
         @keydown.down.prevent="moveDown"
         @keydown.up.prevent="moveUp"
         @keydown.enter.prevent="selectHighlighted"
         @blur="hideSuggestionsDelayed"
-        rows="2"
+        rows="1"
         required
         class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#F26440] focus:border-transparent"
         placeholder="Commencez à taper votre adresse..."
-      ></textarea>
+      ></input>
       
       <!-- Liste des suggestions -->
       <ul v-if="suggestions.length > 0 && showSuggestions" 
