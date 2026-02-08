@@ -181,7 +181,7 @@
 
                   <!-- Hint shown only when "Visite" is selected -->
                   <p v-if="form.service === 'Visite'" class="mt-2 text-sm text-yellow-700 bg-yellow-50 p-3 rounded-lg border border-yellow-200">
-                    ℹ️ La visite de contrôle inclut un déplacement facturé de <span class="font-medium">50€</span> (règlement en espèce).
+                    ℹ️ La visite de contrôle inclut un déplacement facturé de <span class="font-medium">40€</span> (règlement en chèque ou espèce). <br><span class="font-extrabold">Ce déplacement est offert si une intervention est ensuite réalisée par nos soins durant la visite.</span>
                   </p>
               </div>
 

@@ -1,15 +1,15 @@
 <template>
   <div>
-    <TopBar v-if="!isAdminRoute"/>
-    <NavBar v-if="!isAdminRoute" />
+    <TopBar v-if="!isAdminRoute && !isCompanyInfoRoute"/>
+    <NavBar v-if="!isAdminRoute && !isCompanyInfoRoute" />
 
-    <main :class="isAdminRoute ? '' : 'py-8'">
+    <main :class="isAdminRoute || isCompanyInfoRoute ? '' : 'py-8'">
       <router-view />
     </main>
 
-    <ScrollToTop v-if="!isAdminRoute" />
-    <FooterBar v-if="!isAdminRoute" />
-    <CookieBanner v-if="!isAdminRoute" />
+    <ScrollToTop v-if="!isAdminRoute && !isCompanyInfoRoute" />
+    <FooterBar v-if="!isAdminRoute && !isCompanyInfoRoute" />
+    <CookieBanner v-if="!isAdminRoute && !isCompanyInfoRoute" />
   </div>
 </template>
 
@@ -27,5 +27,9 @@ const route = useRoute()
 // Masquer NavBar/Footer sur les routes admin
 const isAdminRoute = computed(() => {
   return route.path.startsWith('/admin')
+})
+
+const isCompanyInfoRoute = computed(() => {
+  return route.path.startsWith('/presentation-mcs')
 })
 </script>
