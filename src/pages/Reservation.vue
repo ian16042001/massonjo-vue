@@ -156,16 +156,7 @@
                 >
               </div>
 
-              <div>
-                <label class="block text-sm font-medium text-gray-700 mb-1">Adresse *</label>
-                <textarea
-                  v-model="form.address"
-                  rows="2"
-                  required
-                  class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#F26440] focus:border-transparent"
-                  placeholder="123 Rue des Moineaux, 74930 Reignier-Ésery"
-                ></textarea>
-              </div>
+              <AddressAutocomplete v-model="form.address" />
 
               <div>
                 <label class="block text-sm font-medium text-gray-700 mb-1">Type d'intervention *</label>
@@ -277,6 +268,7 @@ import { ref, computed, onMounted, nextTick, watch } from 'vue';
 import VueCal from 'vue-cal';
 import 'vue-cal/dist/vuecal.css';
 import api from '@/services/api';
+import AddressAutocomplete from '@/components/AddressAutocomplete.vue'
 
 const modalRef = ref(null);
 
